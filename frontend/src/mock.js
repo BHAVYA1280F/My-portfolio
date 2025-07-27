@@ -3,7 +3,7 @@
 export const personalInfo = {
   name: "Bhavya Kalra",
   title: "Computer Science Engineering Student",
-  location: "Noida, India",
+  location: "Ghaziabad, India",
   grade: "BTech CSE, 1st Year",
   university: "Amity University, Noida",
   tagline: "Passionate • Self-Driven • Logic-Minded",
