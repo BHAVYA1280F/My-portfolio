@@ -198,6 +198,11 @@ const Home = () => {
                         Expected
                       </Badge>
                     )}
+                    {edu.status === 'current' && (
+                      <Badge variant="outline" className="mt-2 text-green-400 border-green-400">
+                        Current
+                      </Badge>
+                    )}
                   </div>
                 ))}
               </CardContent>
