@@ -253,9 +253,9 @@ export const funFacts = [
 ];
 
 export const contactInfo = {
-  email: "bhavyakalra.dev@gmail.com",
-  phone: "+91 9876543210",
-  location: "Noida, Uttar Pradesh, India",
+  email: "bhavyakalra14@gmail.com",
+  phone: "+91 9310609349",
+  location: "Ghaziabad, Uttar Pradesh, India",
   github: "https://github.com/BHAVYA1280F",
   linkedin: "https://www.linkedin.com/in/bhavya-kalra-487b7035b/",
   twitter: "https://x.com/BhavyaK23901003",
