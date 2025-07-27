@@ -518,7 +518,19 @@ const Home = () => {
                     className="btn-primary w-full" 
                     size="sm"
                     onClick={() => {
-                      window.location.href = `mailto:${contactInfo.email}?subject=Contact from Portfolio&body=Hi Bhavya, I would like to get in touch with you.`;
+                      const mailtoLink = `mailto:${contactInfo.email}?subject=Contact from Portfolio&body=Hi Bhavya, I would like to get in touch with you.`;
+                      console.log('Opening email with:', mailtoLink);
+                      
+                      try {
+                        window.location.href = mailtoLink;
+                      } catch (error) {
+                        console.error('mailto failed:', error);
+                        navigator.clipboard.writeText(contactInfo.email).then(() => {
+                          alert(`Email address copied to clipboard: ${contactInfo.email}`);
+                        }).catch(() => {
+                          alert(`Please email me at: ${contactInfo.email}`);
+                        });
+                      }
                     }}
                   >
                     Send Email
