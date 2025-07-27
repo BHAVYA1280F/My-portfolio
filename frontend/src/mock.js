@@ -14,11 +14,18 @@ export const personalInfo = {
 
 export const education = [
   {
-    level: "12th Grade (Expected)",
+    level: "BTech Computer Science Engineering",
+    percentage: "1st Year",
+    board: "Amity University, Noida",
+    year: "2025-2029",
+    status: "current"
+  },
+  {
+    level: "12th Grade",
     percentage: "93%",
     board: "CISCE Board",
     year: "2025",
-    status: "expected"
+    status: "completed"
   },
   {
     level: "10th Grade",
