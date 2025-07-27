@@ -567,19 +567,31 @@ const Home = () => {
             <div className="text-center">
               <h3 className="heading-3 mb-6">Follow Me Online</h3>
               <div className="flex justify-center gap-4 flex-wrap">
-                <Button className="btn-secondary">
+                <Button 
+                  className="btn-secondary"
+                  onClick={() => window.open(contactInfo.github, '_blank')}
+                >
                   <Github className="w-5 h-5 mr-2" />
                   GitHub
                 </Button>
-                <Button className="btn-secondary">
+                <Button 
+                  className="btn-secondary"
+                  onClick={() => window.open(contactInfo.linkedin, '_blank')}
+                >
                   <Linkedin className="w-5 h-5 mr-2" />
                   LinkedIn
                 </Button>
-                <Button className="btn-secondary">
+                <Button 
+                  className="btn-secondary"
+                  onClick={() => window.open(contactInfo.twitter, '_blank')}
+                >
                   <Twitter className="w-5 h-5 mr-2" />
-                  Twitter
+                  X (Twitter)
                 </Button>
-                <Button className="btn-secondary">
+                <Button 
+                  className="btn-secondary"
+                  onClick={() => window.open(contactInfo.instagram, '_blank')}
+                >
                   <Instagram className="w-5 h-5 mr-2" />
                   Instagram
                 </Button>
