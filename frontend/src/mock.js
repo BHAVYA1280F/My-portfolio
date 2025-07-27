@@ -255,11 +255,11 @@ export const funFacts = [
 export const contactInfo = {
   email: "bhavya.kalra@example.com",
   phone: "+91 9876543210",
-  location: "Ghaziabad, Uttar Pradesh, India",
+  location: "Noida, Uttar Pradesh, India",
   github: "https://github.com/bhavyakalra",
-  linkedin: "https://linkedin.com/in/bhavyakalra",
-  twitter: "https://twitter.com/bhavyakalra",
-  instagram: "https://instagram.com/bhavyakalra",
+  linkedin: "https://www.linkedin.com/in/bhavya-kalra-487b7035b/",
+  twitter: "https://x.com/BhavyaK23901003",
+  instagram: "https://www.instagram.com/zanjeer_waala_maulana/?__pwa=1",
   resumeLink: "/resume.pdf",
   portfolioLink: "bhavyakalra.github.io",
   availability: "Available for internships and collaborative projects"
