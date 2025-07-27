@@ -144,7 +144,21 @@ const Home = () => {
                   <Button 
                     className="btn-secondary group"
                     onClick={() => {
-                      window.location.href = `mailto:${contactInfo.email}?subject=Hiring Inquiry&body=Hi Bhavya, I am interested in discussing potential opportunities with you.`;
+                      const mailtoLink = `mailto:${contactInfo.email}?subject=Hiring Inquiry&body=Hi Bhavya, I am interested in discussing potential opportunities with you.`;
+                      console.log('Opening email with:', mailtoLink);
+                      
+                      // Try multiple methods for better compatibility
+                      try {
+                        window.location.href = mailtoLink;
+                      } catch (error) {
+                        console.error('mailto failed:', error);
+                        // Fallback: copy email to clipboard and show alert
+                        navigator.clipboard.writeText(contactInfo.email).then(() => {
+                          alert(`Email address copied to clipboard: ${contactInfo.email}`);
+                        }).catch(() => {
+                          alert(`Please email me at: ${contactInfo.email}`);
+                        });
+                      }
                     }}
                   >
                     <Mail className="w-5 h-5" />
