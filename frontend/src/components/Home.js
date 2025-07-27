@@ -500,7 +500,13 @@ const Home = () => {
                   <p className="body-text text-text-secondary mb-4 break-all">
                     {contactInfo.email}
                   </p>
-                  <Button className="btn-primary w-full" size="sm">
+                  <Button 
+                    className="btn-primary w-full" 
+                    size="sm"
+                    onClick={() => {
+                      window.location.href = `mailto:${contactInfo.email}?subject=Contact from Portfolio&body=Hi Bhavya, I would like to get in touch with you.`;
+                    }}
+                  >
                     Send Email
                   </Button>
                 </CardContent>
