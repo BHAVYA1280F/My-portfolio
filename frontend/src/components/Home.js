@@ -539,8 +539,19 @@ const Home = () => {
                   <p className="body-text text-text-secondary mb-4">
                     Download my complete resume
                   </p>
-                  <Button className="btn-primary w-full" size="sm">
-                    Download PDF
+                  <Button 
+                    className="btn-primary w-full" 
+                    size="sm"
+                    onClick={() => {
+                      const link = document.createElement('a');
+                      link.href = contactInfo.resumeLink;
+                      link.download = 'Bhavya_Kalra_Resume.pdf';
+                      document.body.appendChild(link);
+                      link.click();
+                      document.body.removeChild(link);
+                    }}
+                  >
+                    My Resume
                   </Button>
                 </CardContent>
               </Card>
