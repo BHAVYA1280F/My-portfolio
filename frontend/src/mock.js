@@ -253,14 +253,14 @@ export const funFacts = [
 ];
 
 export const contactInfo = {
-  email: "bhavya.kalra@example.com",
+  email: "bhavyakalra.dev@gmail.com",
   phone: "+91 9876543210",
   location: "Noida, Uttar Pradesh, India",
   github: "https://github.com/BHAVYA1280F",
   linkedin: "https://www.linkedin.com/in/bhavya-kalra-487b7035b/",
   twitter: "https://x.com/BhavyaK23901003",
   instagram: "https://www.instagram.com/zanjeer_waala_maulana/?__pwa=1",
-  resumeLink: "/resume.pdf",
+  resumeLink: "https://drive.google.com/file/d/your-resume-id/view?usp=sharing",
   portfolioLink: "bhavyakalra.github.io",
   availability: "Available for internships and collaborative projects"
 };
