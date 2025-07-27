@@ -2,9 +2,10 @@
 
 export const personalInfo = {
   name: "Bhavya Kalra",
-  title: "Student Programmer",
-  location: "Ghaziabad, India",
-  grade: "Grade 12 (2025 batch)",
+  title: "Computer Science Engineering Student",
+  location: "Noida, India",
+  grade: "BTech CSE, 1st Year",
+  university: "Amity University, Noida",
   tagline: "Passionate • Self-Driven • Logic-Minded",
   mission: "To grow as a passionate developer by contributing to real-world projects, enhancing my programming skills, and constantly evolving through challenges in the tech world.",
   heroImage: "https://images.unsplash.com/photo-1555209183-8facf96a4349?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzd8MHwxfHNlYXJjaHwzfHxjb2RpbmclMjB3b3Jrc3BhY2V8ZW58MHx8fHwxNzUzNTg2NDQzfDA&ixlib=rb-4.1.0&q=85",
