@@ -153,7 +153,7 @@ const Home = () => {
                   <Button 
                     className="btn-secondary group"
                     onClick={() => {
-                      document.getElementById('projects').scrollIntoView({ behavior: 'smooth' });
+                      window.open(contactInfo.github, '_blank');
                     }}
                   >
                     <Github className="w-5 h-5" />
