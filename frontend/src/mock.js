@@ -9,7 +9,7 @@ export const personalInfo = {
   tagline: "Passionate • Self-Driven • Logic-Minded",
   mission: "To grow as a passionate developer by contributing to real-world projects, enhancing my programming skills, and constantly evolving through challenges in the tech world.",
   heroImage: "https://images.unsplash.com/photo-1555209183-8facf96a4349?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzd8MHwxfHNlYXJjaHwzfHxjb2RpbmclMjB3b3Jrc3BhY2V8ZW58MHx8fHwxNzUzNTg2NDQzfDA&ixlib=rb-4.1.0&q=85",
-  profileImage: "https://images.unsplash.com/photo-1681164315430-6159b2361615?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODF8MHwxfHNlYXJjaHwyfHxpbmRpYW4lMjBwcm9ncmFtbWVyfGVufDB8fHx8MTc1MzU4NjcxOHww&ixlib=rb-4.1.0&q=85"
+  profileImage: "https://customer-assets.emergentagent.com/job_code-journey-22/artifacts/qcejp4x9_WhatsApp%20Image%202025-07-27%20at%2009.12.39_f732d1e1.jpg"
 };
 
 export const education = [
