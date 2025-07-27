@@ -115,7 +115,10 @@ const Home = () => {
                 </p>
                 <p className="body-large mb-6 flex items-center justify-center lg:justify-start gap-2">
                   <MapPin className="w-5 h-5 text-brand-primary" />
-                  {personalInfo.location} • {personalInfo.grade}
+                  {personalInfo.location} • {personalInfo.university}
+                </p>
+                <p className="body-text mb-8 text-center lg:text-left">
+                  {personalInfo.grade} • {personalInfo.university}
                 </p>
                 
                 <p className="body-large mb-8 max-w-xl">
