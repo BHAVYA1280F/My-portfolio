@@ -126,17 +126,38 @@ const Home = () => {
                 </p>
                 
                 <div className="flex flex-col sm:flex-row gap-4">
-                  <Button className="btn-primary group">
+                  <Button 
+                    className="btn-primary group"
+                    onClick={() => {
+                      // Create a temporary link element to trigger download
+                      const link = document.createElement('a');
+                      link.href = contactInfo.resumeLink;
+                      link.download = 'Bhavya_Kalra_Resume.pdf';
+                      document.body.appendChild(link);
+                      link.click();
+                      document.body.removeChild(link);
+                    }}
+                  >
                     <Download className="w-5 h-5" />
-                    Download Resume
+                    My Resume
                   </Button>
-                  <Button className="btn-secondary group">
+                  <Button 
+                    className="btn-secondary group"
+                    onClick={() => {
+                      window.location.href = `mailto:${contactInfo.email}?subject=Hiring Inquiry&body=Hi Bhavya, I am interested in discussing potential opportunities with you.`;
+                    }}
+                  >
+                    <Mail className="w-5 h-5" />
+                    Hire Me
+                  </Button>
+                  <Button 
+                    className="btn-secondary group"
+                    onClick={() => {
+                      document.getElementById('projects').scrollIntoView({ behavior: 'smooth' });
+                    }}
+                  >
                     <Github className="w-5 h-5" />
                     View Projects
-                  </Button>
-                  <Button className="btn-secondary group">
-                    <Linkedin className="w-5 h-5" />
-                    Connect
                   </Button>
                 </div>
               </div>
